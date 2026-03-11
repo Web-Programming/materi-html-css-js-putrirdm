@@ -14,13 +14,35 @@
 </head>
 <body>
     <h1> Ini Elemen H1</h1>
-    <div> Ini Elemen Div</div>
+    <div id="demo"> Ini Elemen Div</div>
 
     <script>
         //Output Document
         //alert("Hallo JavaScript");
-        var nama = prompt("Masukkan Nama Anda");
-        console.log("Hallo "+ nama);
+        //var nama = prompt("Masukkan Nama Anda");
+        //console.log("Hallo "+ nama);
+        //var isJomblo = confirm("Apakah anda Jomblo?");
+        //if(isJomlo){
+        //    console.log("Cieee Jomlo");
+        //}else{
+        //    console.log("Byee....");
+        //}
+
+        //Output Document
+        document.write("<h2>Hallo.... </h2>");
+        document.getElementByName("demo").innerHTML= "Nama Saya Putri";
+        document.getElementByName("demo").innerHTML += "<br/>Saya Mahasiswa UMDP";
+
+        //Variabel
+        var nama = "Putri Reda Maulidia"; //String
+        var npm = 2428240086; // number (int)
+        var isMale = true; //boolean
+        var hobi = ["Reading", "Writing", "Dancing"]; //array
+        var nilaiKuliah = {
+            "namaMk":"PAW 1", 
+            "nilaiHuruf": "A", 
+            "nilaiAngka":"90"
+        } //object
     </script>
 </body>
 </html>
